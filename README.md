@@ -18,12 +18,12 @@ visualise the result across multiple samples
 ## Usage
 
 ### Data Acquisition
- Run the script [main.R](https://github.com/leungman426/MultideepQC/tree/master/main.R) in the command line: 
+ Run the script [main.R](https://github.com/leungman426/MultideepQC/tree/master/main.R) in the command line and it creates a folder called 'data' containing multiple-sample files and R scripts: 
 
 `Rscript main.R --WGBS hipo_XXX --RNASeq hipo_XXX /home/document` *(hipo_XXX is hipo porject name e.g. hipo_016; /home/document is where you store the newly created /data folder)*
   
 ### Data summerisation and visualisation   
- Inside the /data, you can find out the script [shiny.R](https://github.com/leungman426/MultideepQC/tree/master/shinyprocess/shiny.R) and run it
+ Open the /data, you can find out the script [shiny.R](https://github.com/leungman426/MultideepQC/tree/master/shinyprocess/shiny.R) and run it
 
 ![Here is what you get](GUI.png)
 
