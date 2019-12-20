@@ -12,4 +12,4 @@ summarise multiple samples in one table
 visualise the result across multiple samples 
 
 #Principle Workflow
-![GitHub Logo](/https://github.com/leungman426/MultideepQC/blob/master/workflow.png)
+![GitHub Logo](workflow.png)
