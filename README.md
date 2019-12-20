@@ -8,10 +8,11 @@ The tool is used to process the files produced by the One Touch Pipline (OTP), a
 1. **Data Acquisition** :
 summarise multiple samples in one table 
 
-2. **Qualtity Control visualtion** :
+2. **Quality Control** :
 visualise the result across multiple samples 
 
 ## Principle Workflow
+
 ![GitHub Logo](workflow.png)
 
 ### Data Acquisition
@@ -21,9 +22,28 @@ visualise the result across multiple samples
   
      
 2. Inside the /data, you can find out the script [shiny.R](https://github.com/leungman426/MultideepQC/tree/master/shinyprocess/shiny.R) and run it
+
 ![Here is what you get](GUI.png)
 
-### Qualtity Control visualtion
+### Quality Control
+
+#### RNAseq
+- Flagstat
+- RNASeQC Read Count Metrics
+- Expression level for transcripts
+- Expression level versus gene (exon) length
+- Gene Expression Level
+- Clustering Analysis
+
+#### WGBS
+- Coverage 
+- Flagstat
+- Global methylation 
+- Methylation for Read Positions
+- Distribution of CG/CH Coverage
+- Methylation for Each Base Q Score
+- The distribution of methylation
+- Clustering analysis 
 
 
 
