@@ -20,7 +20,7 @@ visualise the result across multiple samples
 ### Data Acquisition
  Run the script [main.R](https://github.com/leungman426/MultideepQC/tree/master/main.R) in the command line: 
 
-`Rscript main.R --WGBS hipo_016 --RNASeq hipo_043 /home/document` */home/document is where you store the newly created /data folder*
+`Rscript main.R --WGBS hipo_XXX --RNASeq hipo_XXX /home/document` *(hipo_XXX is hipo porject name e.g. hipo_016; /home/document is where you store the newly created /data folder)*
   
 ### Data summerisation and visualisation   
  Inside the /data, you can find out the script [shiny.R](https://github.com/leungman426/MultideepQC/tree/master/shinyprocess/shiny.R) and run it
