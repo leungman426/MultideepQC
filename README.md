@@ -46,5 +46,7 @@ visualise the result across multiple samples
 - Clustering analysis 
 
 
+![Here is what you get](me_distribution.png)
+
 
 
