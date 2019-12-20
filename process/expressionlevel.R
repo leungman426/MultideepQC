@@ -1,9 +1,9 @@
 library(pryr)
 
 otp_path <- '/icgc/dkfzlsdf/project/hipo/hipo_043/sequencing/rna_sequencing/view-by-pid/'
-path <- '/home/liangwe/tool/data/'
-source('/home/liangwe/tool/function/expressionlevel1.R')
-source('/home/liangwe/tool/function/expressionlevel2.R')
+path <- '/data/'
+source('/function/expressionlevel1.R')
+source('/function/expressionlevel2.R')
 starttime <- Sys.time()
 
 expressionlevel1(otp_path, path)

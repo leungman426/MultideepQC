@@ -16,8 +16,8 @@
 #(Read 2 mapq > 0 read length < min length) 'mapq.0.readlength.minlength.read2',
 #(Read 2 duplicates)'X.duplicates.read2..excluded.from.coverage.analysis.'
 otp_path <- '/icgc/dkfzlsdf/project/hipo/hipo_016/sequencing/whole_genome_bisulfite_sequencing/view-by-pid/'
-path <- '/home/liangwe/tool/data/'
-source('/home/liangwe/tool/function/depthofcoveragefunction.R')
+path <- '/data/'
+source('/function/depthofcoveragefunction.R')
 
 library(pryr)
 starttime <- Sys.time()

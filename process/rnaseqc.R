@@ -1,8 +1,8 @@
 library(pryr)
 
 otp_path <- '/icgc/dkfzlsdf/project/hipo/hipo_043/sequencing/rna_sequencing/view-by-pid/'
-path <- '/home/liangwe/tool/data/'
-source('/home/liangwe/tool/function/rnaseqcfunction.R')
+path <- '/data/'
+source('/function/rnaseqcfunction.R')
 starttime <- Sys.time()
 
 

@@ -1,8 +1,8 @@
 library(pryr)
 library(stringr)
 otp_path <- '/icgc/dkfzlsdf/project/hipo/hipo_016/sequencing/whole_genome_bisulfite_sequencing/view-by-pid/'
-path <- '/home/liangwe/tool/data/'
-source('/home/liangwe/tool/function/flatstatfunction.R')
+path <- '/data/'
+source('/function/flatstatfunction.R')
 starttime <- Sys.time()
 
 df_flagstat(otp_path, path)

@@ -1,6 +1,6 @@
-source('/home/liangwe/tool/function/methylationcallingfunction3.R')
+source('/function/methylationcallingfunction3.R')
 otp_path <- '/icgc/dkfzlsdf/project/hipo/hipo_016/sequencing/whole_genome_bisulfite_sequencing/view-by-pid/'
-path <- '/home/liangwe/tool/data/'
+path <- '/data/'
 
 # path: 'data3/merged/', 'data4/merged/', 'data6/merged'
 # par: 'islands', 'shores', 'all'
